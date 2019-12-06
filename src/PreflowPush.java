@@ -4,10 +4,8 @@ import java.util.Iterator;
 /**
  * Preflow-Push Algorithm Implementation.
  * 
- * @author Asmita
- * @author Deepthi Warrier
  * @author Thuan Lam
- * @date 11-25-2019
+ * @date 12-05-2019
  */
 public final class PreflowPush {
 	/** The given graph that needs to calculate the max flow value. */
