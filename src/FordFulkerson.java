@@ -3,7 +3,7 @@ import java.util.*;
 /**
  * Implementation class for Ford-Fulkerson Algorithm 
  * @author Deepthi Warrier
- * @date 12-06-2019
+ * @since 12-06-2019
  */
 public class FordFulkerson {
 	private SimpleGraph simpleGraph;
@@ -12,7 +12,7 @@ public class FordFulkerson {
 
 	/**
 	 * The constructor of the FordFulkerson class 
-	 * @param theGraph: the input graph for which the max flow is calculated
+	 * @param inputGraph: the input graph for which the max flow is calculated
 	 */
 	public FordFulkerson(SimpleGraph inputGraph) {
 		simpleGraph = inputGraph;
@@ -183,7 +183,7 @@ public class FordFulkerson {
 	
 	/**
 	 * Sets for the sink Vertex name
-	 * @param sinkName
+	 * @param sinkName - sinkName
 	 */
 	public void setSinkVertexName(String sinkName) {
 		this.sinkVertexName = sinkName;

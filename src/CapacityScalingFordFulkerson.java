@@ -4,7 +4,7 @@ import java.util.*;
  * Capacity Scaling Ford-Fulkerson algorithm Implementation.
  * 
  * @author Asmita
- * @date 06-12-2019
+ * @since 06-12-2019
  */
 public class CapacityScalingFordFulkerson {
 	private SimpleGraph myGraph;
@@ -13,9 +13,8 @@ public class CapacityScalingFordFulkerson {
 	private String mySinkVertexName = "t";
 	
 	/**
-	 * 
-	 * @param simpleGraph: the input graph.
-	 * @throws Exception if the given graph has no Sink vertex 't'.
+	 * Constructor
+	 * @param simpleGraph: the input graph.	 * 
 	 */
 	public CapacityScalingFordFulkerson(SimpleGraph simpleGraph) {
 		myGraph = simpleGraph;
@@ -81,8 +80,8 @@ public class CapacityScalingFordFulkerson {
 	}
 
 	/**
-	 * 
-	 * @param theVertexName
+	 * returns the index of the vertex by the vertex name.
+	 * @param theVertexName - The name of the vertex
 	 * @return the index of the vertex in the list of vertices. Return -1 if not found.
 	 */
 	private int findVertexIndexByName(String theVertexName) {
@@ -100,6 +99,7 @@ public class CapacityScalingFordFulkerson {
 	 * Try to find the augmenting path by using Depth-First-Search algorithm.
 	 * 
 	 * @return true if an augmenting path was found. Otherwise, false
+	 * @param theDeltaValue - Delta value calculated.
 	 */
 	private boolean findAugmentingPath(double theDeltaValue) {
 		boolean[] visited = new boolean[myGraph.numVertices()];
@@ -151,6 +151,7 @@ public class CapacityScalingFordFulkerson {
 	 * @param theStartVertex a vertex that we start from.
 	 * @param theVisitedList a list of boolean values that we use to track all
 	 *                       vertices.
+	 * @param theDeltaValue - Delta Value
 	 * @return true if we can find a path to the sink. Otherwise, false.
 	 */
 	private boolean dfsOnGraph(Vertex theStartVertex, boolean[] theVisitedList, double theDeltaValue) {
@@ -216,7 +217,8 @@ public class CapacityScalingFordFulkerson {
 	}
 
 	/**
-	 * @param mySourceVertexName
+	 * Sets the source vertex name
+	 * @param mySourceVertexName - source vertex name passed.
 	 */
 	public void setSourceVertexName(String mySourceVertexName) {
 		this.mySourceVertexName = mySourceVertexName;
