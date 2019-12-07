@@ -3,7 +3,7 @@ import java.util.*;
 /**
  * Capacity Scaling Ford-Fulkerson algorithm Implementation.
  * 
- * @author Asmita
+ * @author Asmita Singla
  * @since 06-12-2019
  */
 public class CapacityScalingFordFulkerson {
