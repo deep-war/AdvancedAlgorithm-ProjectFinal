@@ -1,4 +1,4 @@
-# TCSS543_Team2_Empirical_Study_Networkflow_Algorithms
+# Team2_Empirical_Study_Networkflow_Algorithms
 
 ***The development IDE used:Eclipse2019***
 
