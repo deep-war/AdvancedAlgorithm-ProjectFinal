@@ -4,7 +4,7 @@
 
 ==============================================  
 
-**To run the project:
+**To run the project:**
 
 1. Extract the project
 2. Place input files on which max flow needs to be calculated in the 'bin' folder
@@ -13,7 +13,7 @@
 5. Run the command - java tcss543 <inputfilename.txt>
 
 =====================================================   
-**For accessing the javadocs of the project:
+**For accessing the javadocs of the project:**
 
 1. After extracting the project, Go to the 'doc' folder
 2. Open index.html on a browser
