@@ -1,8 +1,8 @@
 # Team2_Empirical_Study_Networkflow_Algorithms
 
-***The development IDE used:Eclipse2019***
+***The development IDE used:Eclipse2019***  
 
-=====================================================
+==============================================  
 
 **To run the project:
 
@@ -12,8 +12,7 @@
 4. Navigate to the bin folder which has all the class files & the input file
 5. Run the command - java tcss543 <inputfilename.txt>
 
-=======================================================
-
+=====================================================   
 **For accessing the javadocs of the project:
 
 1. After extracting the project, Go to the 'doc' folder
