@@ -1,4 +1,4 @@
-# Team2_Empirical_Study_Networkflow_Algorithms
+# Empirical_Study_Networkflow_Algorithms
 
 ***The development IDE used:Eclipse2019***  
 
